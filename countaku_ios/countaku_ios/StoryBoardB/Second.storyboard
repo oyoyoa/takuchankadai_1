@@ -13,7 +13,7 @@
         <!--Second View Controller-->
         <scene sceneID="7ht-oW-NB0">
             <objects>
-                <viewController storyboardIdentifier="thirdStoryBoard" id="NBT-4l-wa6" customClass="SecondViewController" customModule="countaku_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NBT-4l-wa6" customClass="SecondViewController" customModule="countaku_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9yg-JW-Rjo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
