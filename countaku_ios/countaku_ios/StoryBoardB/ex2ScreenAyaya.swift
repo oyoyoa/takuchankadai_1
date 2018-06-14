@@ -13,7 +13,7 @@ extension SecondViewController{
     func screenTransition2() {
         let msb2 = UIStoryboard(name: "Third", bundle: nil)
         let vc2 = msb2.instantiateViewController(withIdentifier: "thirdStoryBoard") as! ThirdViewController
-        
+        vc2.count3 = count2
         self.present(vc2, animated: true, completion: nil)
     }
 }

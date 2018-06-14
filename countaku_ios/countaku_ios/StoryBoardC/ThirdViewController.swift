@@ -9,7 +9,7 @@
 import UIKit
 
 class ThirdViewController: UIViewController {
-
+    var count3:Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         showcount2()
