@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+
+extension SecondViewController{
+    func screenTransition2() {
+        let msb2 = UIStoryboard(name: "Third", bundle: nil)
+        let vc2 = msb2.instantiateViewController(withIdentifier: "thirdStoryBoard") as! ThirdViewController
+        
+        self.present(vc2, animated: true, completion: nil)
+    }
+}

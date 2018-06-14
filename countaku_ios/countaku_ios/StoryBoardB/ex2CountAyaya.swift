@@ -7,3 +7,9 @@
 //
 
 import Foundation
+ 
+extension SecondViewController {
+    func countUp2() {
+        count2 += 1
+    }
+}
