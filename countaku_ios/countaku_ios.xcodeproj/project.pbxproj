@@ -120,11 +120,10 @@
 				9774508720D23CE500C499A3 /* AppDelegate.swift */,
 				9774508920D23CE500C499A3 /* ViewController.swift */,
 				A982505B20D24C910027C916 /* Second.storyboard */,
+				C767B2D820D2619A00D50FF4 /* StoryBoardA */,
 				A982505D20D24CB30027C916 /* Third.storyboard */,
-				A982505F20D24F540027C916 /* MainViewController.swift */,
 				A982506320D24F6E0027C916 /* ThirdViewController.swift */,
 				A982506120D24F630027C916 /* SecondViewController.swift */,
-				9774508B20D23CE500C499A3 /* Main.storyboard */,
 				9774508E20D23CEE00C499A3 /* Assets.xcassets */,
 				9774509020D23CEE00C499A3 /* LaunchScreen.storyboard */,
 				9774509320D23CEE00C499A3 /* Info.plist */,
@@ -160,6 +159,15 @@
 				977450B620D240ED00C499A3 /* Alamofire.framework.dSYM */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C767B2D820D2619A00D50FF4 /* StoryBoardA */ = {
+			isa = PBXGroup;
+			children = (
+				9774508B20D23CE500C499A3 /* Main.storyboard */,
+				A982505F20D24F540027C916 /* MainViewController.swift */,
+			);
+			path = StoryBoardA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
