@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var label1: UILabel!
     @IBAction func btn1(_ sender: Any) {
        countBtn()
+       scrrenTransition()
     }
     
 
