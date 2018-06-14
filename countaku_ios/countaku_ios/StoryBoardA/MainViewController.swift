@@ -12,8 +12,8 @@ class MainViewController: UIViewController {
     var count1: Int = 0
     @IBOutlet weak var label1: UILabel!
     @IBAction func btn1(_ sender: Any) {
-       countBtn()
-       scrrenTransition()
+       countUOP()
+       screenTransition()
     }
     
 
