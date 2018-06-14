@@ -12,6 +12,6 @@ import UIKit
 extension ThirdViewController {
     
     func showcount2() {
-//        Label2.text = "\(count2)"
+       Label2.text = "\(count3)"
     }
 }
