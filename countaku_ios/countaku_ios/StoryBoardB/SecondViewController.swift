@@ -10,6 +10,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    var count2:Int = 0
     @IBAction func push2(_ sender: Any) {
         countUp2()
     }
