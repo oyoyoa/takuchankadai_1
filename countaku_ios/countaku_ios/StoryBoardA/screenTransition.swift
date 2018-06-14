@@ -12,8 +12,8 @@ import UIKit
 extension MainViewController {
     func screenTransition() {
         if count1 > 9 {
-            let msb = UIStoryboard(name: "MainStoryboard", bundle: nil)
-            let vc = msb.instantiateViewController(withIdentifier: "MainStoryBoard") as! SecondViewController
+            let msb = UIStoryboard(name: "Second", bundle: nil)
+            let vc = msb.instantiateViewController(withIdentifier: "secondView") as! SecondViewController
             
             self.present(vc, animated: true, completion: nil)
         }

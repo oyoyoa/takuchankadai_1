@@ -46,20 +46,11 @@
                     </view>
                     <connections>
                         <outlet property="label1" destination="mF3-3k-mmj" id="QXn-p8-TQa"/>
-                        <segue destination="yVY-nM-aQs" kind="show" id="pXR-jJ-oKO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
-        </scene>
-        <!--Second-->
-        <scene sceneID="ffQ-fH-FPs">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Second" id="yVY-nM-aQs" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mCY-vW-lct" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="672" y="363"/>
         </scene>
     </scenes>
 </document>
