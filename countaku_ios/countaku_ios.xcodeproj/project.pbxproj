@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AB1143520D28A1400407C1E /* ExLabel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1143420D28A1400407C1E /* ExLabel2.swift */; };
 		9774508820D23CE500C499A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9774508720D23CE500C499A3 /* AppDelegate.swift */; };
 		9774508A20D23CE500C499A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9774508920D23CE500C499A3 /* ViewController.swift */; };
 		9774508D20D23CE500C499A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9774508B20D23CE500C499A3 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AB1143420D28A1400407C1E /* ExLabel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLabel2.swift; sourceTree = "<group>"; };
 		9774508420D23CE500C499A3 /* countaku_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countaku_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9774508720D23CE500C499A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9774508920D23CE500C499A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			children = (
 				A982506320D24F6E0027C916 /* ThirdViewController.swift */,
 				A982505D20D24CB30027C916 /* Third.storyboard */,
+				1AB1143420D28A1400407C1E /* ExLabel2.swift */,
 			);
 			path = StoryBoardC;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB1143520D28A1400407C1E /* ExLabel2.swift in Sources */,
 				A982506220D24F630027C916 /* SecondViewController.swift in Sources */,
 				A982506020D24F540027C916 /* MainViewController.swift in Sources */,
 				A982506420D24F6E0027C916 /* ThirdViewController.swift in Sources */,

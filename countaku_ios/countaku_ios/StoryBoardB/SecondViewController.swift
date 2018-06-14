@@ -15,6 +15,6 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func btn2(_ sender: Any) {
-        screenTransition()
+        screenTransition2()
     }
 }
