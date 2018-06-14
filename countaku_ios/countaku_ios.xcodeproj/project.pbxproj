@@ -14,6 +14,8 @@
 		9774509220D23CEE00C499A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9774509020D23CEE00C499A3 /* LaunchScreen.storyboard */; };
 		9774509D20D23CEE00C499A3 /* countaku_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9774509C20D23CEE00C499A3 /* countaku_iosTests.swift */; };
 		977450A820D23CEE00C499A3 /* countaku_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977450A720D23CEE00C499A3 /* countaku_iosUITests.swift */; };
+		977450BE20D2464A00C499A3 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977450BC20D2464A00C499A3 /* SwiftyJSON.framework */; };
+		977450BF20D2464A00C499A3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977450BD20D2464A00C499A3 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,11 @@
 		977450A320D23CEE00C499A3 /* countaku_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countaku_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		977450A720D23CEE00C499A3 /* countaku_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countaku_iosUITests.swift; sourceTree = "<group>"; };
 		977450A920D23CEE00C499A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977450B620D240ED00C499A3 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = ../../todo/ios/Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		977450B820D241D400C499A3 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = ../../carthage/Carthage/Checkouts/Alamofire; sourceTree = "<group>"; };
+		977450BA20D2426A00C499A3 /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftyJSON.framework.dSYM; path = ../../todo/ios/Carthage/Build/iOS/SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
+		977450BC20D2464A00C499A3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		977450BD20D2464A00C499A3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977450BE20D2464A00C499A3 /* SwiftyJSON.framework in Frameworks */,
+				977450BF20D2464A00C499A3 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 				9774509B20D23CEE00C499A3 /* countaku_iosTests */,
 				977450A620D23CEE00C499A3 /* countaku_iosUITests */,
 				9774508520D23CE500C499A3 /* Products */,
+				977450B520D240EC00C499A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +135,18 @@
 			path = countaku_iosUITests;
 			sourceTree = "<group>";
 		};
+		977450B520D240EC00C499A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977450BD20D2464A00C499A3 /* Alamofire.framework */,
+				977450BC20D2464A00C499A3 /* SwiftyJSON.framework */,
+				977450BA20D2426A00C499A3 /* SwiftyJSON.framework.dSYM */,
+				977450B820D241D400C499A3 /* Alamofire */,
+				977450B620D240ED00C499A3 /* Alamofire.framework.dSYM */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +157,7 @@
 				9774508020D23CE500C499A3 /* Sources */,
 				9774508120D23CE500C499A3 /* Frameworks */,
 				9774508220D23CE500C499A3 /* Resources */,
+				977450C020D2467400C499A3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -250,6 +273,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		977450C020D2467400C499A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9774508020D23CE500C499A3 /* Sources */ = {
@@ -431,6 +472,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = countaku_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +493,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = countaku_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
