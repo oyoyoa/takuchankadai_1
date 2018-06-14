@@ -24,7 +24,7 @@ override func didReceiveMemoryWarning() {
     
   
 }
-    func countUOP1() {
+    func countUOP() {
 //        var count1: Int = 0
        count1 = count1 + 1
         label1.text = String(count1);
