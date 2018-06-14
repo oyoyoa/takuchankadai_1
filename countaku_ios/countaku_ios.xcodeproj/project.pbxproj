@@ -16,6 +16,7 @@
 		977450A820D23CEE00C499A3 /* countaku_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977450A720D23CEE00C499A3 /* countaku_iosUITests.swift */; };
 		977450BE20D2464A00C499A3 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977450BC20D2464A00C499A3 /* SwiftyJSON.framework */; };
 		977450BF20D2464A00C499A3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977450BD20D2464A00C499A3 /* Alamofire.framework */; };
+		977450C320D26A6E00C499A3 /* ex1BtnuUchida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977450C220D26A6E00C499A3 /* ex1BtnuUchida.swift */; };
 		A982505C20D24C910027C916 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A982505B20D24C910027C916 /* Second.storyboard */; };
 		A982505E20D24CB30027C916 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A982505D20D24CB30027C916 /* Third.storyboard */; };
 		A982506020D24F540027C916 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A982505F20D24F540027C916 /* MainViewController.swift */; };
@@ -59,6 +60,7 @@
 		977450BA20D2426A00C499A3 /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftyJSON.framework.dSYM; path = ../../todo/ios/Carthage/Build/iOS/SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
 		977450BC20D2464A00C499A3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		977450BD20D2464A00C499A3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		977450C220D26A6E00C499A3 /* ex1BtnuUchida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex1BtnuUchida.swift; sourceTree = "<group>"; };
 		A982505B20D24C910027C916 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		A982505D20D24CB30027C916 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		A982505F20D24F540027C916 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			children = (
 				9774508B20D23CE500C499A3 /* Main.storyboard */,
 				A982505F20D24F540027C916 /* MainViewController.swift */,
+				977450C220D26A6E00C499A3 /* ex1BtnuUchida.swift */,
 			);
 			path = StoryBoardA;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				A982506420D24F6E0027C916 /* ThirdViewController.swift in Sources */,
 				9774508A20D23CE500C499A3 /* ViewController.swift in Sources */,
 				9774508820D23CE500C499A3 /* AppDelegate.swift in Sources */,
+				977450C320D26A6E00C499A3 /* ex1BtnuUchida.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
