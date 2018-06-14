@@ -17,26 +17,16 @@
                     <view key="view" contentMode="scaleToFill" id="jOn-HN-GfU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LG-Dv-YUA">
-                                <rect key="frame" x="166" y="97" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="eaa-x4-5Dn"/>
                     </view>
                     <connections>
-                        <outlet property="Label2" destination="0LG-Dv-YUA" id="IZL-oT-jUf"/>
                         <segue destination="T04-pE-A9u" kind="show" id="b31-Sy-Gtb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y4N-Vy-SvO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="89" y="58"/>
+            <point key="canvasLocation" x="88.799999999999997" y="57.121439280359823"/>
         </scene>
         <!--Second-->
         <scene sceneID="yeQ-Kz-zq8">

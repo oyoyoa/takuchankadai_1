@@ -26,6 +26,7 @@
 		A982506620D267CE0027C916 /* screenTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A982506520D267CE0027C916 /* screenTransition.swift */; };
 		C711DE1820D29A1A00C1691A /* ex2CountAyaya.swift in Sources */ = {isa = PBXBuildFile; fileRef = C711DE1720D29A1A00C1691A /* ex2CountAyaya.swift */; };
 		C711DE1A20D29A3500C1691A /* ex2ScreenAyaya.swift in Sources */ = {isa = PBXBuildFile; fileRef = C711DE1920D29A3500C1691A /* ex2ScreenAyaya.swift */; };
+		A982506C20D2A1490027C916 /* LTMorphingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A982506B20D2A1490027C916 /* LTMorphingLabel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		A982506520D267CE0027C916 /* screenTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenTransition.swift; sourceTree = "<group>"; };
 		C711DE1720D29A1A00C1691A /* ex2CountAyaya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex2CountAyaya.swift; sourceTree = "<group>"; };
 		C711DE1920D29A3500C1691A /* ex2ScreenAyaya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex2ScreenAyaya.swift; sourceTree = "<group>"; };
+		A982506B20D2A1490027C916 /* LTMorphingLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LTMorphingLabel.framework; path = Carthage/Build/iOS/LTMorphingLabel.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A982506C20D2A1490027C916 /* LTMorphingLabel.framework in Frameworks */,
 				977450BE20D2464A00C499A3 /* SwiftyJSON.framework in Frameworks */,
 				977450BF20D2464A00C499A3 /* Alamofire.framework in Frameworks */,
 			);
@@ -160,6 +163,7 @@
 		977450B520D240EC00C499A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A982506B20D2A1490027C916 /* LTMorphingLabel.framework */,
 				977450BD20D2464A00C499A3 /* Alamofire.framework */,
 				977450BC20D2464A00C499A3 /* SwiftyJSON.framework */,
 				977450BA20D2426A00C499A3 /* SwiftyJSON.framework.dSYM */,
@@ -339,6 +343,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/LTMorphingLabel.framework",
 			);
 			outputPaths = (
 			);
